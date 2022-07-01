@@ -1,0 +1,48 @@
+.registration {
+  box-shadow: 5px 5px 5px 5px rgb(197, 197, 201);
+  margin-left: 20em;
+  margin-right: 20em;
+  text-align: center;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+.registration1 {
+  box-shadow: 5px 5px 5px 5px rgb(197, 197, 201);
+  margin-left: 20em;
+  margin-right: 20em;
+
+  margin-top: 2em;
+
+  height: 10em;
+}
+
+.registration > div:nth-child(2) {
+  padding-bottom: 0px;
+}
+.registration > div:nth-child(3) {
+  padding-bottom: 0px;
+}
+.registration > div {
+  padding: 10px;
+}
+.registration > div > input {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px whitesmoke;
+  border: 2px solid gray;
+}
+.afterclick {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+.beforeclick {
+  background-color: rgb(213, 226, 213);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: not-allowed;
+  padding: 5px;
+}
